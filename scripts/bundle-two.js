@@ -1,0 +1,1 @@
+define('text!bundle-two/component-two.html', ['module'], function(module) { module.exports = "<template>\r\n    Component Two\r\n</template>"; });

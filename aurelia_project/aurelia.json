@@ -81,9 +81,29 @@
     "bundles": [
       {
         "name": "app-bundle.js",
-        "source": [
+        "source": {
+          "include":[
           "[**/*.js]",
           "**/*.{css,html}"
+        ],
+          "exclude":[
+            "**/bundle-one/**/*",
+            "**/bundle-two/**/*"
+          ]
+        }
+      },
+      {
+        "name": "bundle-one.js",
+        "source":[
+          "[**/bundle-one/**/*.js]",
+          "**/bundle-one/**/*.{css,html}"
+        ]
+      },
+      {
+        "name": "bundle-two.js",
+        "source":[
+          "[**/bundle-two/**/*.js",
+          "**/bundle-two/**/*.{css,html}"
         ]
       },
       {
