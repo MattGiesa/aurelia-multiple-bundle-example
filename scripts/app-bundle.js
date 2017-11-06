@@ -40,12 +40,12 @@ define('app',["require", "exports", "aurelia-framework"], function (require, exp
         };
         App.prototype.activate = function () {
         };
+        App = __decorate([
+            aurelia_framework_1.autoinject,
+            __metadata("design:paramtypes", [])
+        ], App);
         return App;
     }());
-    App = __decorate([
-        aurelia_framework_1.autoinject,
-        __metadata("design:paramtypes", [])
-    ], App);
     exports.App = App;
 });
 

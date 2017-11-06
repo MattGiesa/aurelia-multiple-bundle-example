@@ -15,12 +15,12 @@ define('bundle-one/component-one',["require", "exports", "aurelia-framework", ".
             this.someService = someService;
             this.someService.log();
         }
+        ComponentOne = __decorate([
+            aurelia_framework_1.autoinject,
+            __metadata("design:paramtypes", [some_service_1.SomeService])
+        ], ComponentOne);
         return ComponentOne;
     }());
-    ComponentOne = __decorate([
-        aurelia_framework_1.autoinject,
-        __metadata("design:paramtypes", [some_service_1.SomeService])
-    ], ComponentOne);
     exports.ComponentOne = ComponentOne;
 });
 

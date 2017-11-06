@@ -102,7 +102,7 @@
       {
         "name": "bundle-two.js",
         "source":[
-          "[**/bundle-two/**/*.js",
+          "[**/bundle-two/**/*.js]",
           "**/bundle-two/**/*.{css,html}"
         ]
       },
